@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateUoW", "TemplateUoW\TemplateUoW.csproj", "{E61ED11B-DFFE-42F7-AF43-66FD2297D762}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E27C0B81-BAF1-4243-A67F-BF90B89E22AA} = {E27C0B81-BAF1-4243-A67F-BF90B89E22AA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.DAL", "Template.DAL\Template.DAL.csproj", "{E27C0B81-BAF1-4243-A67F-BF90B89E22AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E61ED11B-DFFE-42F7-AF43-66FD2297D762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61ED11B-DFFE-42F7-AF43-66FD2297D762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61ED11B-DFFE-42F7-AF43-66FD2297D762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61ED11B-DFFE-42F7-AF43-66FD2297D762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27C0B81-BAF1-4243-A67F-BF90B89E22AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27C0B81-BAF1-4243-A67F-BF90B89E22AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27C0B81-BAF1-4243-A67F-BF90B89E22AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27C0B81-BAF1-4243-A67F-BF90B89E22AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72AC685E-99A8-4F84-B5E7-66EB5CB82D8D}
+	EndGlobalSection
+EndGlobal
